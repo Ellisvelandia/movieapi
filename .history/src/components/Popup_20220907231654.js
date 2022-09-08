@@ -10,6 +10,7 @@ function Popup({ selected, closePopup }) {
         <p className="rating">Rating: {selected.imdbRating}</p>
         <div className="plot">
           <img src={selected.Poster} alt="img" />
+          <p>{selected.plot}</p>
           <p>{selected.Plot}</p>
         </div>
         <button className="close" onClick={closePopup}>
