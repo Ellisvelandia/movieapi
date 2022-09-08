@@ -38,7 +38,7 @@ function App() {
     axios(apiurl + "&i=" + id).then(({ data }) => {
       let result = data;
 
-      console.log(result);
+      console.log
 
       setstate((prevState) => {
         return { ...prevState, selected: result };

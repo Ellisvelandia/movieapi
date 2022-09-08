@@ -1,8 +1,8 @@
 import React from "react";
 
-function Result({ result, openPopup }) {
+function Result({ result, open }) {
   return (
-    <div className="result" onClick={() => openPopup(result.imdbID)}>
+    <div className="result">
       <img src={result.Poster} alt="img" />
       <h3>{result.Title}</h3>
       <h3>{result.Year}</h3>
